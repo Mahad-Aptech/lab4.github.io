@@ -1,0 +1,62 @@
+@font-face {
+    font-family: MPF;
+    src: url(MPF.ttf);
+}
+@font-face {
+    font-family: Backfire;
+    src: url(Backfired.ttf);
+}
+@font-face {
+    font-family: body;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: para;
+    src: url(Signika-VariableFont_GRAD\,wght.ttf);
+}
+
+body{
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+ }
+ header h1 {
+    margin-left: 200;
+    margin-top: 25;
+    position: static;
+    font-family: MPF;
+    font-size: 50;
+    color: white;
+    margin-bottom: 1.75%;
+ }
+img{
+    margin-left: -25;
+    height: 120;
+}
+button{
+    background: none;
+    height: 70;
+    border: none;
+    margin-left: 95;
+    font-family: Backfire;
+    color: white;
+    font-size: 40;
+    width: 200;
+    margin-top: 10;
+}
+button:hover{
+    background-color: #635339;
+}
+button:active{
+    background-color: #635339;
+}
+main{
+    margin-left: 770;
+    font-family: body;
+}
+main p{
+    text-align: justify;
+    margin-right:340;
+    font-family: para;
+}

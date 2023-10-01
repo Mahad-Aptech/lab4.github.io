@@ -1,0 +1,37 @@
+body{
+    background-image: url(bgf.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: body;
+}
+p{
+    margin-left: 00;
+    font-family: body;
+    
+}
+label{
+    margin-left: 40;
+    font-family: body;
+}
+.pop{
+    margin-right: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: body;
+    src: url(Swansea-q3pd.ttf);
+}
+@font-face {
+    font-family: Heading;
+    src: url(DieselItalicPersonalUseBoldItalic-mLJAj.ttf);
+}
+h2{
+    margin-top: 53;
+    font-family: Heading;
+    font-size: 80;
+}
+.left{
+    text-align: justify;
+    margin-left: 80;
+}

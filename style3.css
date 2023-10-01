@@ -1,0 +1,26 @@
+body{
+    background-image: url(BG3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+@font-face {
+    font-family: Head;
+    src: url(DieselItalicPersonalUseBoldItalic-mLJAj.ttf);
+}
+@font-face {
+    font-family: body;
+    src: url(Signika-VariableFont_GRAD\,wght.ttf);
+}
+h2{
+    font-family: Head;
+    color: white;
+    font-size: 55;
+    margin-top: 40;
+
+}
+p{
+    font-family: body;
+    color: white;
+}
