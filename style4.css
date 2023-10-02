@@ -1,0 +1,48 @@
+body{
+    background-image: url(bg4.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+#box{
+    height: 800px;
+    width: 1100px;
+    background-color: rgb(115, 118, 99,0.5);
+    border-radius: 25px;
+    margin-left: 750px;
+    margin-top: 75;
+    padding: 20px;
+}
+h2{
+    align-items: center;
+    font-family: head;
+    font-size: 90;
+    color: white;
+}   
+@font-face {
+    font-family: head;
+    src: url(DieselItalicPersonalUseBoldItalic-mLJAj.ttf);
+}
+@font-face {
+    font-family: button;
+    src: url(Swansea-q3pd.ttf);
+}
+#txt{
+    color: white;
+    text-justify: auto;
+    font-size: 18px;
+}
+button{
+    height: 100px;
+    width: 300px;
+    font-size: 45px;
+    font-family: button;
+    border-radius: 10px;
+    background-color: rgb(140, 143, 123);
+    color: white;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-left: 50;
+    text-decoration: none;
+}
